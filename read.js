@@ -20,7 +20,7 @@ var riftHeraldStats = gameObjs.reduce((x, y) => {
   console.log('game id', y.gameId);
   console.log('teams win', y.teams[0].win === 'Win' ? 'blue team win': 'red team win');
   let blueTeamWin = y.teams[0].win === 'Win';
-  let redTeamWin = y.teams[0].win === 'Win';
+  let redTeamWin = y.teams[1].win === 'Win';
   console.log('number of rift herald by blue', y.teams[0].riftHeraldKills);
   console.log('number of rift herald by red', y.teams[1].riftHeraldKills);
   console.log('total rift:', y.teams[0].riftHeraldKills + y.teams[1].riftHeraldKills);
