@@ -15,9 +15,9 @@ console.log(gameObjs.length);
 var numberOfRiftHeralds = gameObjs.reduce((x, y) => {
   console.log('numbers so far', x);
   console.log('game id', y.gameId);
-  console.log('blue rift', y.teams[0].riftHeraldKills);
-  console.log('red na me', y.teams[1].riftHeraldKills);
-  console.log('total rift', y.teams[0].riftHeraldKills + y.teams[1].riftHeraldKills);
+  console.log('number of rift herald by blue', y.teams[0].riftHeraldKills);
+  console.log('number of rift herald by red', y.teams[1].riftHeraldKills);
+  console.log('total rift:', y.teams[0].riftHeraldKills + y.teams[1].riftHeraldKills);
 
   return x + y.teams[0].riftHeraldKills;
 
