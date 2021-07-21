@@ -4,3 +4,8 @@
 |-------------|----|----|
 | Rift Herald | 87 | 47 |
 | Win         | 41 | 29 |
+
+
+## How to run
+
+``` node read.js```
