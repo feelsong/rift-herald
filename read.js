@@ -5,7 +5,7 @@ console.log("\n *START* \n");
 var gameObjs = [];
 
 [ ...Array(70).keys() ].forEach((n)=> {
-  var content = fs.readFileSync(`${n}.json`);
+  var content = fs.readFileSync(`match/${n}.json`);
   gameObjs.push( JSON.parse(JSON.parse(content)) );
 });
 
