@@ -9,3 +9,7 @@
 ## How to run
 
 ``` node read.js```
+
+## Reference
+
+- https://lol.fandom.com/wiki/LCS/2020_Season/Spring_Season
